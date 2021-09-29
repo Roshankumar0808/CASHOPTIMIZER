@@ -20,8 +20,8 @@ linear-gradient(335deg, #C90032 10px, transparent 10px),
 linear-gradient(155deg, #C90032 10px, transparent 10px);
 background-size: 15px 30px;
 padding: 100px;
-border:80px ;
-margin:10px ;
+border:50px ;
+margin:-10px ;
  
 }
 .container {
@@ -53,4 +53,29 @@ margin:10px ;
     border: purple;
     border-radius: 0.5px;
 
+}
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    /* font-size: large; */
+    font-size: 30px;
+
+}
+
+.footer ul {
+    padding-inline-start: 20px;
 }
